@@ -1,0 +1,117 @@
+body {
+    background-color: #ecedee;
+}
+
+.container {
+    border: 1px solid #aec5d8;
+    display: inline-block;
+    height: 265px;
+    width: 440px;
+    position: relative;
+    left: 38.5%;
+    border-radius: 5px;
+    margin-top: 200px;
+    background-color: rgb(247, 247, 247);
+    margin-bottom: 13px;
+}
+
+.headerimage {
+    background-image: linear-gradient(#4d79a0 ,#386487) ;
+    text-align: center;
+    height: 47px;
+    overflow: hidden;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.headerimage img {
+    height: 35px;
+    text-align: center;
+    position: relative;
+    bottom: -10px;
+}
+
+.loginInfo {
+    position: relative;
+    padding-left: 35px;
+}
+
+.loginInfo label {
+    padding-right: 50px;
+}
+
+.loginInfo input {
+    border: 1px solid rgb(196, 196, 196);
+    height: 35px;
+    width: 240px;
+    border-radius: 3px;
+}
+
+.user {
+    font-family: sans-serif;
+    font-size: 14px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.pass {
+    font-family: sans-serif;
+    font-size: 14px;
+    padding-bottom: 25px;
+}
+
+.pass label {
+    padding-right: 53px;
+}
+
+.container a {
+    font-family: sans-serif;
+    position: relative;
+    left: 35px;
+    font-size: 14px;
+    bottom: -5px;
+}
+
+.container button {
+    height: 33px;
+    width: 65px;
+    background-image: linear-gradient(#6dc993, #5da079);
+    border: 1px solid #4fa9af;
+    border-radius: 3px;
+    font-family: sans-serif;
+    color: white;
+    font-weight: 700;
+    font-size: 13px;
+    position: relative;
+    right: -188px;
+}
+
+
+
+.below {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.account {
+    font-size: 14px;
+}
+
+#littlehigher {
+    position: relative;
+    top: -10;
+}
+
+
+.appbuttons {
+    display: inline-block;
+    position: relative;
+    top: -10px;
+}
+
+.appbuttons img {
+    margin-right: 10px;
+}
+
+
+

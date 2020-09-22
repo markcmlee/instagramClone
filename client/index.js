@@ -39,7 +39,7 @@ const validate = () => {
   for (let key in userAndPass) {
     if (username === key && password === userAndPass[key].password) {
       alert(`Welcome, ${username}!`);
-      window.location = "feed.html";
+      window.location = "./feed.html";
       user = username;
       return false;
     }
@@ -62,10 +62,3 @@ const validate = () => {
 };
 
 let passwordInput = document.getElementById("password");
-
-// passwordInput.addEventListener('keyup', function(e) {
-//     if (e.keyCode === 13) {
-//         e.preventDefault();
-//         validate();
-//     }
-// })

@@ -9,6 +9,14 @@ DOM manipulation with Vanilla JS and jQuery
 - sends the user to the user's feed once they've entered a correct username and password
 - uses CSS and HTML to achieve a consistent Instagram style
 
+### Login Info (user - pass)
+
+marklee - marklee123
+phone - keyswallet
+coffee - black
+keyboard - taptaptap
+mouse - squeak
+
 ###### User Feed Page:
 
 ![instagram_feed](/instagram-clone/docs/images/instagram-feed_shrink.png)

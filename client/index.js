@@ -3,8 +3,8 @@
 let attempt = 3;
 
 const userAndPass = {
-  marklee: {
-    password: "marklee123",
+  mark: {
+    password: "ilovetesting",
     profilePic:
       "https://cdn3.f-cdn.com/contestentries/1376995/30494909/5b566bc71d308_thumb900.jpg",
   },
@@ -31,6 +31,13 @@ const userAndPass = {
 };
 
 let user;
+const input = document.getElementById("password");
+input.addEventListener("keyup", (e) => {
+  if (e.keyCode === 13) {
+    e.preventDefault();
+    document.getElementById("submit").click();
+  }
+});
 
 const validate = () => {
   let username = document.getElementById("username").value;

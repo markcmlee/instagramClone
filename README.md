@@ -11,11 +11,9 @@ DOM manipulation with Vanilla JS and jQuery
 
 ### Login Info (user - pass)
 
-- marklee - marklee123
+- mark - ilovetesting
 - phone - keyswallet
 - coffee - black
-- keyboard - taptaptap
-- mouse - squeak
 
 ###### User Feed Page:
 
